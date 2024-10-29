@@ -1,0 +1,285 @@
+*,
+html {
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.div-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 45%;
+}
+
+.div-navbar {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 8vh;
+    z-index: 1000;
+}
+
+.logo {
+    height: 100%;
+    width: 12%;
+    float: left;
+    margin-left: 25px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100%;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.li-navbar {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.a-navbar {
+    color: rgb(244, 148, 93);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+.a-navbar:hover {
+    color: white;
+    border-bottom: 3px white;
+}
+
+
+.container-about {
+    margin: 100px auto;
+    margin-left: 50px;
+    height: 85vh;
+}
+
+.div-pengertian {
+    color: white;
+    margin-top: 100px;
+}
+
+.h1-about {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 1500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+}
+
+.h3-about {
+    margin-top: 15px;
+    margin-left: 26%;
+    padding-top: 10px;
+    width: 700px;
+    color: white;
+    font-size: 30px;
+    font-weight: 1;
+    letter-spacing: 5px;
+    border-top: 3px white solid;
+    text-align: center;
+}
+
+.h3-Pengertian {
+    display: flex;
+    justify-content: center;
+    margin-left: 26%;
+    margin-top: 150px;
+    color: white;
+    width: 700px;
+    height: 50px;
+    font-family: "Berlin Sans FB Demi", Helvetica, "sans-serif";
+    font-size: 40px;
+    border: 3px white solid;
+    border-radius: 90px;
+    margin-bottom: 35px;
+}
+
+.p-pengertian {
+    margin-left: 26%;
+    margin-top: 10px;
+    width: 700px;
+    color: white;
+    font-size: 20px;
+    font-weight: 1;
+    text-align: center;
+}
+
+.batas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24%;
+    margin-top: 10px;
+    filter: brightness(300%);
+    width: 50%;
+    height: 15%;
+    z-index: -1px;
+}
+
+.div-peform {
+    margin-top: 50px;
+}
+
+.h3-peform {
+    display: flex;
+    justify-content: center;
+    margin-left: 34%;
+    width: 450px;
+    color: white;
+    font-size: 50px;
+    border-bottom: 3px white solid;
+    padding-bottom: 10px;
+    margin-bottom: 70PX;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-guest {
+    color: white;
+    margin-top: 25px;
+    display: grid;
+    justify-content: center;
+}
+
+.h-guest {
+    display: flex;
+    justify-content: center;
+    margin-left: -5%;
+    margin-bottom: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.yt-guest {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    max-width: 560px;
+    border: 5px white solid;
+    margin-left: 6%;
+}
+
+.p-guest {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: -2%;
+    margin-top: 35px;
+    width: 700px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.batas2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -15px;
+    margin-left: 05%;
+    height: 100px;
+}
+
+.div-place {
+    margin-top: 50px;
+    
+}
+
+.h-place {
+    display: flex;
+    justify-content: center;
+    margin-left: 34%;
+    width: 450px;
+    color: white;
+    font-size: 50px;
+    border-bottom: 3px white solid;
+    padding-bottom: 10px;
+    margin-bottom: 70PX;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.f-place {
+    display: flex;
+    justify-content: center;
+}
+
+.f-lapangan {
+    background-color: antiquewhite;
+    padding-right: 300px;   
+}
+
+.h-detail {
+    margin-left: -400px;
+    margin-right: 75px;
+    padding-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.p-detail {
+    margin-left: -435px;
+    margin-right: 40px;
+    padding-top: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    text-align: center;
+}
+
+.h-alamat {
+    margin-left: -425px;
+    margin-right: 35px;
+    padding-top: 260px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 400px;
+}
+
+.h-link {
+    margin-left: -430px;
+    margin-right: 30px;
+    padding-top: 315px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 400px;
+    color: black;
+    text-decoration: none;
+}
+
+.f-maps {
+    width: 365px;
+}
+
+.div-footer {
+    height: 5vh;
+    padding-top: 10px;
+    margin-top: 4800px;
+    background-color: rgba(0, 0, 0, 0.263);
+}
+
+.isi-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: roboto;
+    font-weight: lighter;
+    font-size: small;
+}
+
