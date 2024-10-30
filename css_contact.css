@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/contact us/img/3.jpg');
+    background-image: url('contact us/img/3.jpg');
     background-size: cover;
     background-position: center;
     color: #fff; /* Text color for contrast */
