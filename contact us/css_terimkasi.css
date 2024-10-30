@@ -1,0 +1,112 @@
+/* Reset beberapa elemen dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/contact us/img/loncat.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9; /* Warna latar belakang alternatif */
+    color: #333; /* Warna teks hitam */
+}
+
+.thank-you-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Memenuhi tinggi viewport */
+    text-align: center;
+}
+
+.thank-you-page header {
+    background-color: rgba(255, 255, 255, 0.9); /* Putih dengan transparansi */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih dalam */
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem; /* Ukuran font untuk judul */
+    margin-bottom: 15px;
+    color: #4CAF50; /* Warna hijau untuk judul */
+}
+
+p {
+    font-size: 1.2rem; /* Ukuran font untuk teks biasa */
+    margin-bottom: 20px;
+    line-height: 1.6; /* Jarak antar baris yang lebih baik */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Warna hijau untuk tombol */
+    color: #ffffff; /* Warna teks tombol putih */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Transisi untuk efek hover */
+    font-weight: bold; /* Teks tebal */
+}
+
+.devoloper {
+    color: white;
+    margin-top: 50px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.team h3 {
+    margin-right: 5px;
+}
+
+.team a {
+    color: white;
+    text-decoration: none;
+}
+
+.team a:hover {
+    color: yellow;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Warna lebih gelap saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+/* Animasi teks */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.thank-you-page header {
+    animation: fadeIn 1s ease-in; /* Animasi masuk untuk header */
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem; /* Ukuran font lebih kecil di perangkat kecil */
+    }
+
+    p {
+        font-size: 1rem; /* Ukuran font untuk teks biasa */
+    }
+}

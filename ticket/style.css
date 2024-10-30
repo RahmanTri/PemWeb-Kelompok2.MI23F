@@ -1,0 +1,102 @@
+/* Reset gaya dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Desain\ tanpa\ judul.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tiket-container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.tiket-header h1 {
+    font-size: 2.5rem;
+    color: #ff7f00;
+    margin-bottom: 10px;
+}
+
+.tiket-header p {
+    font-size: 1.2rem;
+    color: #ffffffc9;
+    margin-bottom: 30px;
+}
+
+.tiket-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tiket-card {
+    background-color: #2d2d2d;
+    border: 2px solid #ff7f00;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tiket-card:hover {
+    transform: translateY(-10px);
+    background-color: #3a3a3a;
+}
+
+.tiket-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff7f00;
+}
+
+.harga {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff7f00;
+    margin-bottom: 10px;
+}
+
+.tanggal {
+    font-size: 1rem;
+    color: #ffffffc9;
+    margin-bottom: 20px;
+}
+
+.btn-beli {
+    background-color: #ff7f00;
+    color: #1b1b1b;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-beli:hover {
+    background-color: #ff5500;
+}
+
+.tiket-footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #ffffffc9;
+}
